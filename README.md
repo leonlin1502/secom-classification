@@ -30,7 +30,7 @@ Compared with least squares alone, the neural-network residual correction increa
 
 
 | Metric | [Park et al. (2024)](https://doi.org/10.3390/s24175461) | Proposed WLS–NN |
-|:---|---:|---:|
+|:---:|:---:|:---:|
 | Classification model | SVM | WLS with NN residual correction |
 | Number of selected sensors | 12 | 20 |
 | Test accuracy | 0.8514 | **0.9140** |
@@ -41,9 +41,8 @@ Compared with least squares alone, the neural-network residual correction increa
 | Defective-product precision | 0.2468 | **0.4063** |
 | Defective-product F1 score | 0.3519 | **0.4906** |
 
-<center> Table. Comparison Between the Results of Park et al. (2024) and the Proposed Hybrid Model </center>
+<p align="center"><strong>Table. Comparison Between the Results of Park et al. (2024) and the Proposed Hybrid Model</strong></p>
 
 The better value for each quantitative performance metric is shown in bold. The proposed WLS–NN model achieved numerically higher values for all the listed performance metrics and therefore demonstrated competitive performance on the SECOM classification problem.
 
 Nevertheless, this comparison should be interpreted with caution because the two studies used different training–test partitions and model-selection procedures. In addition, the test set in the present project was used for exploratory model comparison. Therefore, these results provide evidence of competitive performance rather than a strictly controlled demonstration that the proposed method outperforms the approach of [Park et al. (2024)](https://doi.org/10.3390/s24175461).
-
