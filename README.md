@@ -89,6 +89,6 @@ A linear SVM is first used to rank and select relevant sensor measurements. Leas
 
 </div>
 
-The better value for each quantitative performance metric is shown in bold. The proposed WLS–NN model achieved numerically higher values for all the listed performance metrics and therefore demonstrated competitive performance on the SECOM classification problem.
+The better value for each quantitative performance metric is shown in bold. The proposed weighted least-squares and neural-network hybrid (WLS–NN) model achieved numerically higher values for all the listed performance metrics and therefore demonstrated competitive performance on the SECOM classification problem.
 
 Nevertheless, this comparison should be interpreted with caution because the two studies used different training–test partitions and model-selection procedures. In addition, the test set in the present project was used for exploratory model comparison. Therefore, these results provide evidence of competitive performance rather than a strictly controlled demonstration that the proposed method outperforms the approach of [Park et al. (2024)](https://doi.org/10.3390/s24175461).
