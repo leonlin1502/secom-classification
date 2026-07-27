@@ -26,9 +26,6 @@ A linear SVM is first used to rank and select relevant sensor measurements. Leas
 
 ### IV. Results
 
-Compared with least squares alone, the neural-network residual correction increased the test balanced accuracy from `0.7039` to `0.7771`. It also reduced the number of passing products incorrectly classified as defective from 34 to 19, while increasing the number of correctly detected defective products from 11 to 13.
-
-
 <div align="center">
 
 <table>
