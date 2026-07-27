@@ -29,19 +29,68 @@ A linear SVM is first used to rank and select relevant sensor measurements. Leas
 Compared with least squares alone, the neural-network residual correction increased the test balanced accuracy from `0.7039` to `0.7771`. It also reduced the number of passing products incorrectly classified as defective from 34 to 19, while increasing the number of correctly detected defective products from 11 to 13.
 
 
-| Metric | [Park et al. (2024)](https://doi.org/10.3390/s24175461) | Proposed WLS–NN |
-|:---:|:---:|:---:|
-| Classification model | SVM | WLS with NN residual correction |
-| Number of selected sensors | 12 | 20 |
-| Test accuracy | 0.8514 | **0.9140** |
-| Passing-product recall | 0.8682 | **0.9352** |
-| Defective-product recall | 0.6129 | **0.6190** |
-| Balanced accuracy | 0.7405 | **0.7771** |
-| Geometric mean | 0.7295 | **0.7609** |
-| Defective-product precision | 0.2468 | **0.4063** |
-| Defective-product F1 score | 0.3519 | **0.4906** |
+<div align="center">
 
-<p align="center"><strong>Table. Comparison Between the Results of Park et al. (2024) and the Proposed Hybrid Model</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th align="center">Metric</th>
+      <th align="center"><a href="https://doi.org/10.3390/s24175461">Park et al. (2024)</a></th>
+      <th align="center">Proposed WLS–NN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Classification model</td>
+      <td align="center">SVM</td>
+      <td align="center">WLS with NN residual correction</td>
+    </tr>
+    <tr>
+      <td align="center">Number of selected sensors</td>
+      <td align="center">12</td>
+      <td align="center">20</td>
+    </tr>
+    <tr>
+      <td align="center">Test accuracy</td>
+      <td align="center">0.8514</td>
+      <td align="center"><strong>0.9140</strong></td>
+    </tr>
+    <tr>
+      <td align="center">Passing-product recall</td>
+      <td align="center">0.8682</td>
+      <td align="center"><strong>0.9352</strong></td>
+    </tr>
+    <tr>
+      <td align="center">Defective-product recall</td>
+      <td align="center">0.6129</td>
+      <td align="center"><strong>0.6190</strong></td>
+    </tr>
+    <tr>
+      <td align="center">Balanced accuracy</td>
+      <td align="center">0.7405</td>
+      <td align="center"><strong>0.7771</strong></td>
+    </tr>
+    <tr>
+      <td align="center">Geometric mean</td>
+      <td align="center">0.7295</td>
+      <td align="center"><strong>0.7609</strong></td>
+    </tr>
+    <tr>
+      <td align="center">Defective-product precision</td>
+      <td align="center">0.2468</td>
+      <td align="center"><strong>0.4063</strong></td>
+    </tr>
+    <tr>
+      <td align="center">Defective-product F1 score</td>
+      <td align="center">0.3519</td>
+      <td align="center"><strong>0.4906</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Table. Comparison Between the Results of Park et al. (2024) and the Proposed Hybrid Model</strong></p>
+
+</div>
 
 The better value for each quantitative performance metric is shown in bold. The proposed WLS–NN model achieved numerically higher values for all the listed performance metrics and therefore demonstrated competitive performance on the SECOM classification problem.
 
